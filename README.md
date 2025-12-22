@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ 주요 기능
+##  주요 기능
 
 - **AI 기반 안전 경로 추천**: 단순히 최단 거리가 아닌, 안전 점수가 가장 높은 최적의 경로를 제안합니다.
 - **실시간 내비게이션**: WebView 기반의 카카오맵을 통해 사용자의 현재 위치를 추적하며 경로를 안내합니다.
@@ -16,11 +16,11 @@
 
 ---
 
-## 🛠️ 기술 스택 (Tech Stack)
+##  기술 스택 (Tech Stack)
 
 프로젝트는 Mobile(클라이언트)과 Backend(서버)로 나누어 개발되었습니다.
 
-### 📱 Mobile (Client)
+###  Mobile (Client)
 
 - **Framework**: React Native (Expo)
 - **Language**: TypeScript
@@ -30,7 +30,7 @@
 - **Map**: React Native WebView with Kakao Maps API
 - **State Management**: React Hooks (useState, useEffect)
 
-### 🖥️ Backend
+###  Backend
 
 - **Framework**: Node.js, Express
 - **Language**: JavaScript (ES Modules)
@@ -39,13 +39,13 @@
 - **Authentication**: JWT (Access / Refresh Token)
 - **Testing**: Jest, Supertest
 
-### ☁️ Infrastructure & DevOps
+###  Infrastructure & DevOps
 
 - **Deployment**: Render
 
 ---
 
-## 🚀 시작하기
+##  시작하기
 ### 별도의 백엔드 서버가 필요합니다.
 1.  **저장소 복제**
     ```bash
@@ -68,4 +68,5 @@
     ```bash
     npx expo start -c
     ```
+
 
